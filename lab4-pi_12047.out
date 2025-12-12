@@ -1,0 +1,23 @@
+
+ 	 Computing pi in serial: 
+
+	 For 1000000 trials, pi = 3.139640
+
+312 ms ± 973 μs per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ ========================================
+	 Cálculo aplicando Numpy y njit
+Para 1000000 intentos obtenemos que pi equivale a 3.143824
+El tiempo empleado en el cálculo es de 0.032809 segundos.
+Al aplicar Numba hemos acelerado el proceso en un factor de 9.379307
+========================================
+
+ ========================================
+	 Cálculo aplicando Numpy y Numba paralelizado
+Para 1000000 intentos obtenemos que pi equivale a 3.140760
+El tiempo empleado en el cálculo es de 0.002272 segundos.
+Al aplicar Numba paralelizado hemos acelerado el proceso en un factor de 135.433054 comparado con el cálculo inicial.
+Numba paralelizado acelera el proceso en un factor de 14.439559 frente a Numba sin paralelizar.
+========================================
+ 
+La cola utilizada es bohr-cpu
