@@ -1,0 +1,30 @@
+Time taken by reduction operation: 0.01833486557006836 seconds
+17.8 ms ± 1.24 μs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+
+ El valor introducido por terminal es 10000000 
+
+Tiempo que emplea en sumar listas mediante un bucle for: 0.36595 segundos
+La suma obtenida es 49999995000000 
+
+Tiempo que emplea en sumar la función sum: 0.02711 segundos
+La suma obtenida es de 49999995000000 
+
+Tiempo que emplea en sumar arrays de numpy mediante un bucle for: 0.50587 segundos
+La suma obtenida es 49999995000000 
+
+Tiempo que emplea en sumar la función sum de numpy: 0.023876 segundos
+La suma obtenida es de 49999995000000 
+
+Tiempo que emplea en sumar arrays de numpy mediante un bucle for optimizado con Numba: 0.00548 segundos
+La suma obtenida es 49999995000000 
+
+Tiempo que emplea en sumar la función sum de numpy optimizado con Numba: 0.146548 segundos
+La suma obtenida es de 49999995000000 
+
+
+real	0m32,018s
+user	0m7,633s
+sys	0m0,179s
